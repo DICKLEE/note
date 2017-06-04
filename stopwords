@@ -1,3 +1,11 @@
+import os
+import re
+import csv
+
+path = "～～～～/stopwords"
+list_file = os.listdir(path)
+list_file
+
 stop_words = []
 regex = re.compile('(\w)+')
 
